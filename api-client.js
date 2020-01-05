@@ -1,10 +1,5 @@
 const END_POINT =  "https://wincacademydatabase.firebaseio.com/paulien.json";
 
-//{tasks: [
-//		{id: 1, description: "Make todo app in JS", done: false},
-//		{id: 2, description: "Make pancakes", done: true },
-//	]
-//}
 const someAPICallToGetAllTasks = async () => {
 	const apiUrl = "https://wincacademydatabase.firebaseio.com/paulien/tasks.json";
 	try{
